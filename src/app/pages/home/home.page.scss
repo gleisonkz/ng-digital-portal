@@ -1,0 +1,46 @@
+:host {
+  display: block;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+a {
+  display: inline-block;
+  border: 1px solid;
+  height: 290px;
+  width: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  border-radius: 4px;
+  color: #fff;
+
+  &.rsi {
+    background-color: #ef6c00;
+  }
+
+  &.ifd {
+    background-color: #00e676;
+  }
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  width: 300px;
+  background-color: rgb(215, 250, 215);
+}
+
+button:hover {
+  background-color: rgb(215, 250, 215);
+  cursor: pointer;
+}

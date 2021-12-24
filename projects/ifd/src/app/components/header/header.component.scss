@@ -1,0 +1,25 @@
+:host {
+  display: block;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #00e676;
+  color: white;
+  font-weight: 600;
+
+  .nav-item {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
+.toolbar img {
+  margin: 0 16px;
+}

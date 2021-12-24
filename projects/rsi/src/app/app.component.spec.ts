@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-digital-portal'`, () => {
+  it(`should have as title 'rsi'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-digital-portal');
+    expect(app.title).toEqual('rsi');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ng-digital-portal app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('rsi app is running!');
   });
 });
