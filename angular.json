@@ -26,13 +26,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets", "src/_redirects"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -94,13 +89,8 @@
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": []
           }
         }
@@ -133,9 +123,7 @@
               "projects/rsi/src/favicon.ico",
               "projects/rsi/src/assets"
             ],
-            "styles": [
-              "projects/rsi/src/styles.scss"
-            ],
+            "styles": ["projects/rsi/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -201,9 +189,7 @@
               "projects/rsi/src/favicon.ico",
               "projects/rsi/src/assets"
             ],
-            "styles": [
-              "projects/rsi/src/styles.scss"
-            ],
+            "styles": ["projects/rsi/src/styles.scss"],
             "scripts": []
           }
         }
@@ -236,9 +222,7 @@
               "projects/ifd/src/favicon.ico",
               "projects/ifd/src/assets"
             ],
-            "styles": [
-              "projects/ifd/src/styles.scss"
-            ],
+            "styles": ["projects/ifd/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -304,9 +288,7 @@
               "projects/ifd/src/favicon.ico",
               "projects/ifd/src/assets"
             ],
-            "styles": [
-              "projects/ifd/src/styles.scss"
-            ],
+            "styles": ["projects/ifd/src/styles.scss"],
             "scripts": []
           }
         }
