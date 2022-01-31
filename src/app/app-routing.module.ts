@@ -6,6 +6,8 @@ import { SignInPage } from 'src/app/pages/sign-in/sign-in.page';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
+import { MsalGuard } from '@azure/msal-angular';
+
 const routes: Routes = [
   { path: '', component: HomePage, canActivate: [AuthGuard] },
   { path: 'sign-in', component: SignInPage, canActivate: [NotLoggedGuard] },
